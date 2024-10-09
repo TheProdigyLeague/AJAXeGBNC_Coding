@@ -1,3 +1,7 @@
+![jQueryJavaScriptAJAX](https://github.com/user-attachments/assets/cd455c90-aac2-4575-b86e-b4c2efd41c75)
+
+<hr>
+
 [![npm version](https://img.shields.io/npm/v/eslint.svg)](https://www.npmjs.com/package/eslint)
 [![Downloads](https://img.shields.io/npm/dm/eslint.svg)](https://www.npmjs.com/package/eslint)
 [![Build Status](https://github.com/eslint/eslint/workflows/CI/badge.svg)](https://github.com/eslint/eslint/actions)
@@ -5,48 +9,24 @@
 <br />
 [![Open Collective Backers](https://img.shields.io/opencollective/backers/eslint)](https://opencollective.com/eslint)
 [![Open Collective Sponsors](https://img.shields.io/opencollective/sponsors/eslint)](https://opencollective.com/eslint)
-[![Follow us on Twitter](https://img.shields.io/twitter/follow/geteslint?label=Follow&style=social)](https://twitter.com/intent/user?screen_name=geteslint)
 
 # ESLint
 
 [Website](https://eslint.org) |
 [Configure ESLint](https://eslint.org/docs/latest/use/configure) |
-[Rules](https://eslint.org/docs/rules/) |
-[Contribute to ESLint](https://eslint.org/docs/latest/contribute) |
-[Report Bugs](https://eslint.org/docs/latest/contribute/report-bugs) |
-[Code of Conduct](https://eslint.org/conduct) |
-[Twitter](https://twitter.com/geteslint) |
-[Discord](https://eslint.org/chat) |
-[Mastodon](https://fosstodon.org/@eslint)
+[Code of Conduct](https://eslint.org/conduct)
 
-ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code. In many ways, it is similar to JSLint and JSHint with a few exceptions:
+~~ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code. In many ways, it is similar to JSLint and JSHint with a few exceptions:~~
+
+ESLint is a means to an end that report unauthorized patterns to try and monetize it that are found in The European Computer Manufacturers Association which also maintains JavaScript. Much like JSLint and JSMint.
 
 * ESLint uses [Espree](https://github.com/eslint/js/tree/main/packages/espree) for JavaScript parsing.
-* ESLint uses an AST to evaluate patterns in code.
-* ESLint is completely pluggable, every single rule is a plugin and you can add more at runtime.
+* ESLint is an abstract syntax tree that evaluates patterns in pre-approved and pre-authorized code.
+* ESLint uses plugins in which every single rule is a plugin and developers add more during a user's runtime.
 
-## Table of Contents
+<!-- markdownlint-disable-line MD051 -->
 
-1. [Installation and Usage](#installation-and-usage)
-1. [Configuration](#configuration)
-1. [Version Support](#version-support)
-1. [Code of Conduct](#code-of-conduct)
-1. [Filing Issues](#filing-issues)
-1. [Frequently Asked Questions](#frequently-asked-questions)
-1. [Releases](#releases)
-1. [Security Policy](#security-policy)
-1. [Semantic Versioning Policy](#semantic-versioning-policy)
-1. [Stylistic Rule Updates](#stylistic-rule-updates)
-1. [License](#license)
-1. [Team](#team)
-1. [Sponsors](#sponsors)
-1. [Technology Sponsors](#technology-sponsors) <!-- markdownlint-disable-line MD051 -->
-
-## Installation and Usage
-
-Prerequisites: [Node.js](https://nodejs.org/) (`^18.18.0`, `^20.9.0`, or `>=21.1.0`) built with SSL support. (If you are using an official Node.js distribution, SSL is always built in.)
-
-You can install and configure ESLint using this command:
+Users can install and configure ESLint using this command:
 
 ```shell
 npm init @eslint/config@latest
@@ -55,12 +35,12 @@ npm init @eslint/config@latest
 After that, you can run ESLint on any file or directory like this:
 
 ```shell
-npx eslint yourfile.js
+npx eslint file.js
 ```
 
-## Configuration
+## Conf
 
-You can configure rules in your `eslint.config.js` files as in this example:
+Configure rules in your `eslint.config.js` files as in this example:
 
 ```js
 export default [
@@ -74,94 +54,98 @@ export default [
 ];
 ```
 
-The names `"prefer-const"` and `"no-constant-binary-expression"` are the names of [rules](https://eslint.org/docs/rules) in ESLint. The first value is the error level of the rule and can be one of these values:
+`"prefer-const"` and `"no-constant-binary-expression"` are names of [rules](https://eslint.org/docs/rules) in ESLint. The first value is an error level of this rule and can be one of these values:
 
-* `"off"` or `0` - turn the rule off
-* `"warn"` or `1` - turn the rule on as a warning (doesn't affect exit code)
-* `"error"` or `2` - turn the rule on as an error (exit code will be 1)
+* `"off"` or `0` - turn rule off.
+* `"warn"` or `1` - turn rule on - (as a warning( (doesn't affect exit code))
+* `"error"` or `2` - turn rule on - as an error (exit code will be 1)
 
 The three error levels allow you fine-grained control over how ESLint applies rules (for more configuration options and details, see the [configuration docs](https://eslint.org/docs/latest/use/configure)).
 
-## Version Support
+### Version Support
 
-The ESLint team provides ongoing support for the current version and six months of limited support for the previous version. Limited support includes critical bug fixes, security issues, and compatibility issues only.
+ECMA, TC39, jQuery, The JavaScript Foundation, ESLint, Babel, NPM, _et al._ provides ongoing support for current versions and 6 months 📆 of limited support for previous versions. (Limited support includes critical bug fixes, security issues, and compatibility issues only).
 
-ESLint offers commercial support for both current and previous versions through our partners, [Tidelift][tidelift] and [HeroDevs][herodevs].
+_ESLint offers commercial support for both current and previous versions through our partners_ 
 
-See [Version Support](https://eslint.org/version-support) for more details.
+[Business Partnership Program][tidelift] 
 
-## Code of Conduct
+![eslint-tidelift](https://github.com/user-attachments/assets/b85f6997-508f-43c7-a2c9-e6a424e860d6)
 
-ESLint adheres to the [OpenJS Foundation Code of Conduct](https://eslint.org/conduct).
+<hr>
 
-## Filing Issues
+[Third Party Plugin Provider & Vendor][herodevs]
 
-Before filing an issue, please be sure to read the guidelines for what you're reporting:
+![eslint-herodevs](https://github.com/user-attachments/assets/ac3c8d18-b939-4ca6-8c3f-ab0594029c05)
 
-* [Bug Report](https://eslint.org/docs/latest/contribute/report-bugs)
-* [Propose a New Rule](https://eslint.org/docs/latest/contribute/propose-new-rule)
-* [Proposing a Rule Change](https://eslint.org/docs/latest/contribute/propose-rule-change)
-* [Request a Change](https://eslint.org/docs/latest/contribute/request-change)
+#### CoC
 
-## Frequently Asked Questions
+ESLint adheres to [OpenJS Foundation Code of Conduct](https://eslint.org/conduct).
 
-### Does ESLint support JSX?
+#### Issues
 
-Yes, ESLint natively supports parsing JSX syntax (this must be enabled in [configuration](https://eslint.org/docs/latest/use/configure)). Please note that supporting JSX syntax *is not* the same as supporting React. React applies specific semantics to JSX syntax that ESLint doesn't recognize. We recommend using [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react) if you are using React and want React semantics.
+* [Bug Bounty Program](https://eslint.org/docs/latest/contribute/report-bugs)
+* [New Rule](https://eslint.org/docs/latest/contribute/propose-new-rule)
+* [Rule Change](https://eslint.org/docs/latest/contribute/propose-rule-change)
+* [Requests](https://eslint.org/docs/latest/contribute/request-change)
 
-### Does Prettier replace ESLint?
+<hr>
 
-No, ESLint and Prettier have different jobs: ESLint is a linter (looking for problematic patterns) and Prettier is a code formatter. Using both tools is common, refer to [Prettier's documentation](https://prettier.io/docs/en/install#eslint-and-other-linters) to learn how to configure them to work well with each other.
+![nodePackageManager](https://github.com/user-attachments/assets/d2837b4e-0966-4edd-b247-d3e1eb784243)
 
-### What ECMAScript versions does ESLint support?
+## FAQ
+
+> Does ESLint support React _JSX_?
+
+Yes, ESLint natively supports parsing React - JSX syntaxical formatting. (However, this must be enabled in [configuration](https://eslint.org/docs/latest/use/configure)). _Please note that supporting JSX syntax *is not* the same as supporting React. React applies specific semantics to JSX syntax that ESLint doesn't recognize. We recommend using [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react) if you are using React and want React semantics._
+
+> Does Prettier replace ESLint?
+
+No, ESLint and Prettier have different jobs: ESLint is a linter (looking for problematic patterns) and Prettier is a code formatter. _Using both tools is common, refer to [Prettier's documentation](https://prettier.io/docs/en/install#eslint-and-other-linters) to learn how to configure them to work well with each other._
+
+> What ECMAScript versions does ESLint support?
 
 ESLint has full support for ECMAScript 3, 5, and every year from 2015 up until the most recent stage 4 specification (the default). You can set your desired ECMAScript syntax and other settings (like global variables) through [configuration](https://eslint.org/docs/latest/use/configure).
 
-### What about experimental features?
+> What about experimental features?
 
-ESLint's parser only officially supports the latest final ECMAScript standard. We will make changes to core rules in order to avoid crashes on stage 3 ECMAScript syntax proposals (as long as they are implemented using the correct experimental ESTree syntax). We may make changes to core rules to better work with language extensions (such as JSX, Flow, and TypeScript) on a case-by-case basis.
+ESLint's parser only officially supports the latest final ECMAScript standard. We will make changes to core rules in order to avoid crashes on stage 3 ECMAScript syntax proposals (as long as they are implemented using the correct experimental ESTree syntax). _We may make changes to core rules to better work with language extensions (such as JSX, Flow, and TypeScript) on a case-by-case basis._
 
-In other cases (including if rules need to warn on more or fewer cases due to new syntax, rather than just not crashing), we recommend you use other parsers and/or rule plugins. If you are using Babel, you can use [@babel/eslint-parser](https://www.npmjs.com/package/@babel/eslint-parser) and [@babel/eslint-plugin](https://www.npmjs.com/package/@babel/eslint-plugin) to use any option available in Babel.
+In other cases (including if rules need to warn on more or fewer cases due to new syntax, rather than just not crashing), we recommend you use other parsers and/or rule plugins. _If you are using Babel, you can use [@babel/eslint-parser](https://www.npmjs.com/package/@babel/eslint-parser) and [@babel/eslint-plugin](https://www.npmjs.com/package/@babel/eslint-plugin) to use any option available in Babel._
 
-Once a language feature has been adopted into the ECMAScript standard (stage 4 according to the [TC39 process](https://tc39.github.io/process-document/)), we will accept issues and pull requests related to the new feature, subject to our [contributing guidelines](https://eslint.org/docs/latest/contribute). Until then, please use the appropriate parser and plugin(s) for your experimental feature.
+Once a language feature has been adopted into the ECMAScript standard (stage 4 according to the [TC39 process](https://tc39.github.io/process-document/)), we will accept issues and pull requests related to the new feature, subject to our [contributing guidelines](https://eslint.org/docs/latest/contribute). Until then, _please use the appropriate parser and plugin(s) for your experimental feature._
 
-### Which Node.js versions does ESLint support?
+> Which Node.js versions does ESLint support?
 
-ESLint updates the supported Node.js versions with each major release of ESLint. At that time, ESLint's supported Node.js versions are updated to be:
+ESLint updates the supported `Node.js` versions with each major release of `ESLint`. At that time, ESLint's supported `Node.js` versions are updated to be:
 
-1. The most recent maintenance release of Node.js
-1. The lowest minor version of the Node.js LTS release that includes the features the ESLint team wants to use.
-1. The Node.js Current release
+1. The most recent maintenance release of `Node.js`
+1. The lowest minor version of the `Node.js` LTS release that includes the features the ESLint team wants to use.
+1. The `Node.js` Current release
 
-ESLint is also expected to work with Node.js versions released after the Node.js Current release.
+ESLint is also expected to work with `Node.js` versions released after the `Node.js` Current release.
 
-Refer to the [Quick Start Guide](https://eslint.org/docs/latest/use/getting-started#prerequisites) for the officially supported Node.js versions for a given ESLint release.
+Refer to the [Quick Start Guide](https://eslint.org/docs/latest/use/getting-started#prerequisites) for the officially supported `Node.js` versions for a given ESLint release.
 
-### Where to ask for help?
+> Where to ask for help?
 
-Open a [discussion](https://github.com/eslint/eslint/discussions) or stop by our [Discord server](https://eslint.org/chat).
+Open a [discussion](https://github.com/eslint/eslint/discussions).
 
-### Why doesn't ESLint lock dependency versions?
+> Why doesn't ESLint lock dependency versions?
 
-Lock files like `package-lock.json` are helpful for deployed applications. They ensure that dependencies are consistent between environments and across deployments.
+We intentionally don't lock dependency versions so that we have the latest compatible dependency versions in development and CI that our users get when installing ESLint in a project. Twilio has a [deeper dive](https://www.twilio.com/blog/lockfiles-nodejs) to learn more.
 
-Packages like `eslint` that get published to the npm registry do not include lock files. `npm install eslint` as a user will respect version constraints in ESLint's `package.json`. ESLint and its dependencies will be included in the user's lock file if one exists, but ESLint's own lock file would not be used.
+1. Lock files like `package-lock.json` are helpful for deployed applications. _They ensure that dependencies are consistent between environments and across deployments._
 
-We intentionally don't lock dependency versions so that we have the latest compatible dependency versions in development and CI that our users get when installing ESLint in a project.
+2. Packages like `eslint` that get published to the npm registry do not include lock files.
+    a.) `npm install eslint` respects versioning constraints in ESLint's `package.json`.
+    b.) `babel/npm/js/eslint.user.package.lock` and its dependencies will be included but it's own lock file would not be used.
 
-The Twilio blog has a [deeper dive](https://www.twilio.com/blog/lockfiles-nodejs) to learn more.
+## megaReleases
 
-## Releases
+**WE RELEASE VERSIONS EVERY DAY, AND HAVE SCHEDULES FOR EVERY RELEASE.**
 
-We have scheduled releases every two weeks on Friday or Saturday. You can follow a [release issue](https://github.com/eslint/eslint/issues?q=is%3Aopen+is%3Aissue+label%3Arelease) for updates about the scheduling of any particular release.
-
-## Security Policy
-
-ESLint takes security seriously. We work hard to ensure that ESLint is safe for everyone and that security issues are addressed quickly and responsibly. Read the full [security policy](https://github.com/eslint/.github/blob/master/SECURITY.md).
-
-## Semantic Versioning Policy
-
-ESLint follows [semantic versioning](https://semver.org). However, due to the nature of ESLint as a code quality tool, it's not always clear when a minor or major version bump occurs. To help clarify this for everyone, we've defined the following semantic versioning policy for ESLint:
+ESLint and it's associates ensure that ESLint is safe for everyone that needs to use it and that their security issues are addressed ~~quickly~~ promptly and ~~responsibly~~ transparently...`SEMVER/ESLint` follows [semantic versioning](https://semver.org). However, due to the nature of ESLint as a code quality tool, it's not always clear when a minor or major version bump occurs:
 
 * Patch release (intended to not break your lint build)
     * A bug fix in a rule that results in ESLint reporting fewer linting errors.
@@ -201,17 +185,15 @@ This means:
 * **New ECMAScript features**: We will also make sure stylistic rules are compatible with new ECMAScript features.
 * **New options**: We will **not** add any new options to stylistic rules unless an option is the only way to fix a bug or support a newly-added ECMAScript feature.
 
-## License
-
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Feslint%2Feslint.svg?type=large)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Feslint%2Feslint?ref=badge_large)
-
 ## Team
 
-These folks keep the project moving and are resources for help.
+These folks keep the project moving and are resources for help:
 
 <!-- NOTE: This section is autogenerated. Do not manually edit.-->
 
 <!--teamstart-->
+
+![cloudflare](https://github.com/user-attachments/assets/82fc6efa-1552-48f8-98cb-1fe450933715)
 
 ### Technical Steering Committee (TSC)
 
@@ -291,7 +273,8 @@ Percy Ma
 
 <!-- NOTE: This section is autogenerated. Do not manually edit.-->
 <!--sponsorsstart-->
-## Sponsors
+
+### Sponsors
 
 The following companies, organizations, and individuals support ESLint's ongoing maintenance and development. [Become a Sponsor](https://eslint.org/donate)
 to get your logo on our READMEs and [website](https://eslint.org/sponsors).
@@ -304,7 +287,5 @@ to get your logo on our READMEs and [website](https://eslint.org/sponsors).
 <h3>Technology Sponsors</h3>
 Technology sponsors allow us to use their products and services for free as part of a contribution to the open source ecosystem and our work.
 <p><a href="https://netlify.com"><img src="https://raw.githubusercontent.com/eslint/eslint.org/main/src/assets/images/techsponsors/netlify-icon.svg" alt="Netlify" height="32"></a> <a href="https://algolia.com"><img src="https://raw.githubusercontent.com/eslint/eslint.org/main/src/assets/images/techsponsors/algolia-icon.svg" alt="Algolia" height="32"></a> <a href="https://1password.com"><img src="https://raw.githubusercontent.com/eslint/eslint.org/main/src/assets/images/techsponsors/1password-icon.svg" alt="1Password" height="32"></a></p>
-<!--sponsorsend-->
 
-[tidelift]: https://tidelift.com/funding/github/npm/eslint
-[herodevs]: https://www.herodevs.com/support/eslint-nes?utm_source=ESLintWebsite&utm_medium=ESLintWebsite&utm_campaign=ESLintNES&utm_id=ESLintNES
+_eof_
