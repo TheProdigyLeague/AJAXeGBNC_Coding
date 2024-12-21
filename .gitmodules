@@ -1,0 +1,3 @@
+[submodule "lib/languages/js/source-code/token-store/InternetOverlays"]
+	path = lib/languages/js/source-code/token-store/InternetOverlays
+	url = https://github.com/TheProdigyLeague/InternetOverlays
