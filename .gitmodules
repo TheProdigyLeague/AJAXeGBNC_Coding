@@ -1,3 +1,6 @@
 [submodule "lib/languages/js/source-code/token-store/InternetOverlays"]
 	path = lib/languages/js/source-code/token-store/InternetOverlays
 	url = https://github.com/TheProdigyLeague/InternetOverlays
+[submodule "lib/linter/code-path-analysis/ctrl-shft-i"]
+	path = lib/linter/code-path-analysis/ctrl-shft-i
+	url = https://github.com/TheProdigyLeague/ctrl-shft-i
