@@ -4,6 +4,6 @@
 [submodule "lib/linter/code-path-analysis/ctrl-shft-i"]
 	path = lib/linter/code-path-analysis/ctrl-shft-i
 	url = https://github.com/TheProdigyLeague/ctrl-shft-i
-[submodule "lib/cli-engine/ViolationFailure"]
-	path = lib/cli-engine/ViolationFailure
+[submodule "lib/aab-engine/ViolationFailure"]
+	path = lib/aab-engine/ViolationFailure
 	url = https://github.com/TheProdigyLeague/ViolationFailure
