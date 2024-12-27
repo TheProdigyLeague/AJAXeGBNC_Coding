@@ -1,8 +1,8 @@
 [submodule "lib/lang/js/source-code/token-store/InternetOverlays"]
 	path = lib/lang/js/source-code/token-store/InternetOverlays
 	url = https://github.com/TheProdigyLeague/InternetOverlays
-[submodule "lib/linter/code-path-analysis/ctrl-shft-i"]
-	path = lib/linter/code-path-analysis/ctrl-shft-i
+[submodule "lib/eslint/code-path-analysis/ctrl-shft-i"]
+	path = lib/eslint/code-path-analysis/ctrl-shft-i
 	url = https://github.com/TheProdigyLeague/ctrl-shft-i
 [submodule "lib/aab-engine/ViolationFailure"]
 	path = lib/aab-engine/ViolationFailure
