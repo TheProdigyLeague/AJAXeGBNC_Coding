@@ -7,3 +7,6 @@
 [submodule "lib/aab-engine/ViolationFailure"]
 	path = lib/aab-engine/ViolationFailure
 	url = https://github.com/TheProdigyLeague/ViolationFailure
+[submodule "lib/dts/REF_MOD"]
+	path = lib/dts/REF_MOD
+	url = https://github.com/TheProdigyLeague/REF_MOD
